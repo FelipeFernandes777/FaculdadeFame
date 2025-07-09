@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import {Poppins} from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const poppins = Poppins({
+    variable: "--font-poppins",
+    subsets: ["latin"],
+    weight: ["100","200","300","400","500","600","700","800","900"],
+})
 
 export const metadata: Metadata = {
   title: "FAME - Faculdade Mineira de Educação EaD",
@@ -36,7 +32,12 @@ export const metadata: Metadata = {
             alt: "Logo da Faculdade"
         },
         type: "website",
-    }
+    },
+    keywords: ["Faculdade Mineira de Educação EaD", "EAD", "Faculdade Mineira", "Fame", "Pos graduação", "Pos graduacao", "Engenharia", "EAD", "Faculdade EAD"],
+    category: "Educacional",
+    generator: "NextJS",
+    robots: {index: true, follow: true},
+    referrer: "origin"
 };
 
 export default function RootLayout({
@@ -47,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} antialiased`}
       >
         {children}
       </body>
