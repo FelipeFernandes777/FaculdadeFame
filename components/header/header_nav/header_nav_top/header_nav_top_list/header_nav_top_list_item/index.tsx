@@ -7,7 +7,7 @@ export interface HeaderNavTopListItemProps {
 
 export function HeaderNavTopListItem({img,title}: HeaderNavTopListItemProps){
     return (
-        <li className="font-bold hover:text-blue-900 hover:cursor-pointer  text-white flex items-center justify-center gap-2">
+        <li className="font-bold hover:text-black/60 hover:cursor-pointer  text-black flex items-center justify-center gap-2">
             {img}
             {title}
         </li>
