@@ -5,7 +5,7 @@ import {BannerFloatButton} from "@/components/banner/banner_image/banner_float/b
 export function BannerFloat() {
     return (
         <BannerFloatContainer>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-8">
                 <BannerFloatText className="text-5xl"> Faculdade Mineira de Educação EAD</BannerFloatText>
                 <div className="w-4/12">
                     <BannerFloatText>
