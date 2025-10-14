@@ -4,7 +4,6 @@ import {CarrouselContainer} from "@/components/carousel/carousel_container";
 import {CarrouselTitle} from "@/components/carousel/carousel_title";;
 import {CarouselCardSectionContainer} from "@/components/carousel/carousel_card_section_container";
 import {CarouselCard} from "@/components/carousel/carousel_card";
-
 export function Carousel() {
     const slideImages = [
         {src: "/global2.png", alt: "Logo 1", title: "Global"},
