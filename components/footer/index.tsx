@@ -15,19 +15,19 @@ export function Footer() {
                 </div>
 
                 {/* Informações de contato */}
-                <div className="mt-8 grid gap-4 text-center sm:grid-cols-3">
+                <div className="mt-8 grid gap-4 text-center sm:grid-cols-2">
                     <div>
                         <h4 className="font-semibold text-white mb-1">📍 Endereço</h4>
-                        <p>Rua rio doce - 50 Coronel Fabriciano/MG</p>
+                        <p>R. Luiz Rodrigues dos Santos, 44 - Todos Os Santos, Cel. Fabriciano - MG</p>
                     </div>
                     <div>
                         <h4 className="font-semibold text-white mb-1">📞 Telefone</h4>
-                        <p>+55 31 9354-7329</p>
+                        <p>+55 31 7328-6995</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <h4 className="font-semibold text-white mb-1">📧 E-mail</h4>
                         <p>secretariaiguacu@faculdadeiguacu.edu.br</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-500">

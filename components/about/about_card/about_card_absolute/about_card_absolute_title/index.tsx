@@ -6,6 +6,6 @@ export interface AboutCardAbsoluteTitleProps {
 
 export function AboutCardAbsoluteTitle({title}: AboutCardAbsoluteTitleProps) {
     return (
-        <h3 className="text-2xl font-bold text-gray-900 mb-4">{title}</h3>
+        <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">{title}</h3>
     )
 }

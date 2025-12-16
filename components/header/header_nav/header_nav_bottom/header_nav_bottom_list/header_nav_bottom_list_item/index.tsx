@@ -1,17 +1,23 @@
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 
-export interface HeaderNavBottomListItemProps {
-    title: string,
-    img: ReactNode,
-    href: string,
-}
+export type HeaderNavBottomListItemProps = {
+    title: string;
+    img: ReactNode;
+    href: string;
+};
 
-export function HeaderNavBottomListItem({img, title, href}: HeaderNavBottomListItemProps) {
+export function HeaderNavBottomListItem({
+    img,
+    title,
+    href,
+}: HeaderNavBottomListItemProps) {
     return (
-        // text-(var(--black-green))
-        <a className="font-medium  text-white cursor-pointer hover:text-white/90  flex gap-2 justify-center" href={`#${href}`}>
+        <a
+            className="text-white grid grid-cols-[20px_1fr] gap-2 items-center justify-center py-2"
+            href={`#${href}`}
+        >
             {img}
             {title}
         </a>
-    )
+    );
 }

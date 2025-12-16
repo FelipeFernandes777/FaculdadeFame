@@ -96,7 +96,7 @@ export function About() {
                 },
             },
             img: {
-                src: "/about/teacher.jpg",
+                src: "/about/teacher.webp",
                 alt: "Professor da FAME",
             },
         },
@@ -146,13 +146,13 @@ export function About() {
                 <div className="flex justify-center gap-8">
                     <button
                         onClick={() => emblaApi?.scrollPrev()}
-                        className="text-2xl hover:scale-125 transition"
+                        className="text-2xl hover:scale-125 transition p-2 md:p-3"
                     >
                         <ArrowBigLeft className="text-gray-700 h-8 w-8"/>
                     </button>
                     <button
                         onClick={() => emblaApi?.scrollNext()}
-                        className="text-2xl hover:scale-125 transition"
+                        className="text-2xl hover:scale-125 transition p-2 md:p-3"
                     >
                         <ArrowBigRight className="text-gray-700 h-8 w-8"/>
                     </button>
